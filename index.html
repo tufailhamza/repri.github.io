@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza's Fitness</title>
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-size: 17px;
+        background-image: url('img/sports-966991_1920.jpg');
+        background-repeat: no-repeat;
+         background-size: 1920px 650px;
+         color: white;
+         font-weight: bold;
+    }
+    .left{
+         border: 2px solid red;
+         display: inline-block;
+         position: absolute;
+         left: 34px;
+         top: 18px;
+    }
+    .left img{
+        width: 95px;
+        filter: invert(100%);
+        background: transparent;
+    }
+
+    .mid{
+        border: 2px solid green;
+         display: block;
+         width: 50%;
+         margin:18px auto;
+        
+    }
+    .navbar li {
+        display: inline-block;
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: white;
+        padding: 23px 34px;
+    }
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        color: rgb(202, 178, 178);
+        padding: 23px 34px;
+    }
+    .right{
+        border: 2px solid  yellow;
+        position: absolute;
+        display: inline-block;
+        right: 34px;
+        top: 18px;
+    }
+    .btn{
+      margin: 0px 3px;
+      background-color: transparent;
+      color: white;
+      border: 2px solid transparent;
+      padding: 4px 3px;
+      cursor: pointer;
+    }
+    .btn:hover{
+        color: rgb(202, 178, 178);;
+    }
+    .container{
+        border: 2px solid red;
+    margin: 76px 167px;
+    padding: 23px;
+    width: 30%;
+    padding: 73px;
+    border-radius: 12px;
+    }
+    .container h3{
+        padding-top: 0px;
+        text-align: center ;
+        color: black;
+    }
+
+</style>
+<body>
+    <header class="header">
+     <div class="left">
+        <img src="img/Black and White Illustrative Hand Weightlifting Badge Health and Fitness Gym Logo .jpg" alt="">
+     </div>
+     <div class="mid">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+     </div>
+     <div class="right">
+        <button class="btn">Call us Now</button>
+        <button class="btn">Email US</button>
+     </div>
+    </header>
+    <div class="container">
+     <h3>Join the best gym in KArachi</h1>
+        <form action="noaction.php">
+            <div class="form-grp">
+                <input type="text" placeholder="Enter yor name">
+            </div>
+            <div class="form-grp">
+                <input type="text" placeholder="Enter yor name">
+            </div>
+            <div class="form-grp">
+                <input type="text" placeholder="Enter yor name">
+            </div>
+            <div class="form-grp">
+                <input type="text" placeholder="Enter yor name">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
